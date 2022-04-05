@@ -1,0 +1,122 @@
+
+#container {
+    border: 1px solid lightblue;
+    width: auto;
+    height: 100%;
+    padding: 10px;
+    box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+    background-color: black;
+}
+
+#nav_bar{
+    border: 3px solid pink;
+    height: 30px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    background-color: black;
+}
+#nav_div{
+    float: right;
+    background-color: black;
+}
+#home{
+    margin-right: 20px;
+    font-size:20px;
+    font-weight:bold;
+    font-family: "Times New Roman", Times, serif;
+    background-color: black;
+}
+#signup{
+    margin-right: 20px;
+    font-size:20px;
+    font-weight:bold;
+    font-family: "Times New Roman", Times, serif;
+}
+#login{
+    margin-right: 20px;
+    font-size:20px;
+    font-weight:bold;
+    font-family: "Times New Roman", Times, serif;
+}
+button{
+    width: 70px;
+    text-align: center;
+    background-color: black;
+    border: none;
+    color: white;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    border-radius:5px;
+}
+
+#signup-form-div{
+    display: block;
+    border: 1px solid darkgreen;
+    width: 17%;
+    margin-left:42%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius:5px;
+    margin-top:5px;
+}
+input{
+    width: 97%;
+    border: 2px solid blue;
+}
+h1{
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+#submit{
+    background-color:teal;
+    width: 100%;
+    color: white;
+    border: 2px solid purple;
+}
+
+@media only screen and (min-width: 100px) {
+    body {
+        background-color: black;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: black;
+    }
+}
+
+
+@media only screen and  (min-width: 100px) {
+    #nav_div{
+        background-color: black;
+    }
+    #home{
+        background-color: black;
+    }
+    #signup{
+        background-color: black;
+    }
+    #login{
+        background-color: black;
+    }
+    #signup-form-div{
+        background-color: black;
+    }
+}
+
+@media only screen and  (max-width: 600px) {
+    #nav_div{
+        background-color: white;
+    }
+    #home{
+        background-color: white;
+    }
+    #signup{
+        background-color: white;
+    }
+    #login{
+        background-color: white;
+    }
+    #signup-form-div{
+        background-color: white;
+    }
+}
